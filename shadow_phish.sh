@@ -40,14 +40,13 @@ tput sgr0   # reset attributes
 }
 
 ## Kill already running process
-kill_pid() {
-	if [[ `pidof php` ]]; then
+if [[ `pidof php` ]]; then
 		killall php > /dev/null 2>&1
 	fi
 	if [[ `pidof ngrok` || `pidof ngrok2` ]]; then
 		killall ngrok > /dev/null 2>&1 || killall ngrok2 > /dev/null 2>&1
 	fi	
-}
+
 
 ## Banner
 banner() {
