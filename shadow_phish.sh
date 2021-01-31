@@ -3,9 +3,6 @@
 ##   Author     	: 	SHADOW_SQUAD 
 ##   Version    	: 	4.0
 ##   Github     	: 	https://github.com/SHADOW-SQUAD-BROTHEr
-
-
-
 ## ANSI colors (FG & BG)
 RED="$(printf '\033[31m')"  GREEN="$(printf '\033[32m')"  ORANGE="$(printf '\033[33m')"  BLUE="$(printf '\033[34m')"
 MAGENTA="$(printf '\033[35m')"  CYAN="$(printf '\033[36m')"  WHITE="$(printf '\033[37m')" BLACK="$(printf '\033[30m')"
@@ -25,7 +22,7 @@ else
 fi
 
 ## Script termination
-exit_on_signal_SIGINT() {
+exit_on_signal_SIGINT() 
     { printf "\n\n%s\n\n" "${RED}[${WHITE}!${RED}]${RED} Program Interrupted." 2>&1; reset_color; }
     exit 0
 }
