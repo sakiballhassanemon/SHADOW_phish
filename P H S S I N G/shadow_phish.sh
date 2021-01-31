@@ -160,7 +160,7 @@ ${ORANGE} ███████ ██   ██ ██   ██ ██
 banner_small() {
 	cat <<- EOF
 		${BLUE}
-		${BLUE}███████╗██╗  ██╗ █████╗ ██████╗  ██████╗ ██╗    ██╗
+        ${BLUE}███████╗██╗  ██╗ █████╗ ██████╗  ██████╗ ██╗    ██╗
         ${BLUE}██╔════╝██║  ██║██╔══██╗██╔══██╗██╔═══██╗██║    ██║
         ${BLUE}███████╗███████║███████║██║  ██║██║   ██║██║ █╗ ██║
         ${BLUE}╚════██║██╔══██║██╔══██║██║  ██║██║   ██║██║███╗██║
@@ -269,6 +269,7 @@ about() {
 		${GREEN}Github   ${RED}:  ${CYAN}https://github.com/SHADOW-SQUAD-BROTHEr
 		${GREEN}Social   ${RED}:  ${CYAN}SHADOW SQUAD
 		${GREEN}Version  ${RED}:  ${ORANGE}4.0
+		${GREEN}C.E.O    ${RED}:  ${CYAN}FOYJUL ISLAM NAIM
 		${GREEN}Made By  ${RED}:  ${CYAN}ADNAN ISLAM
 		${REDBG}${WHITE} Thanks : Adi1090x,MoisesTapia,Tahmid Rayat,DarkSecDevelopers,Thelinuxchoice ${RESETBG}
 		${RED}[${WHITE}00${RED}]${ORANGE} Main Menu     ${RED}[${WHITE}99${RED}]${ORANGE} Exit
