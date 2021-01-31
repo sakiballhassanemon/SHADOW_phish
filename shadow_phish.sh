@@ -34,8 +34,7 @@ trap exit_on_signal_SIGINT SIGINT
 trap exit_on_signal_SIGTERM SIGTERM
 
 ## Reset terminal colors
-reset_color() {
-	tput sgr0   # reset attributes
+tput sgr0   # reset attributes
 	tput op     # reset color
     return
 }
