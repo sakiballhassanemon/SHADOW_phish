@@ -5,7 +5,10 @@
 ##   Version    	: 	4.0
 ##   Github     	: 	https://github.com/SHADOW-SQUAD-BROTHEr
 
+
+
 ##   THANKS TO :
+##   TAHMID RAYAT - https://github.com/htr-tech
 ##   Aditya Shakya - https://github.com/adi1090x
 ##   Moises Tapia - https://github.com/MoisesTapia
 ##   TheLinuxChoice - https://twitter.com/linux_choice
