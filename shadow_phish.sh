@@ -25,7 +25,7 @@ fi
     exit 0
 }
 
-exit_on_signal_SIGTERM() {
+
     { printf "\n\n%s\n\n" "${RED}[${WHITE}!${RED}]${RED} Program Terminated." 2>&1; reset_color; }
     exit 0
 }
