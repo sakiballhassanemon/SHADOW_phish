@@ -39,20 +39,6 @@ fi
 trap exit_on_signal_SIGINT SIGINT
 trap exit_on_signal_SIGTERM SIGTERM
 
-## Reset terminal colors
-reset_color() {tput sgr0   # reset attributes
-	tput op     # reset color
-    return}
-
-## Kill already running process
-kill_pid() {
-	if [[ `pidof php` ]]; then
-		killall php > /dev/null 2>&1
-	fi
-	if [[ `pidof ngrok` || `pidof ngrok2` ]]; then
-		killall ngrok > /dev/null 2>&1 || killall ngrok2 > /dev/null 2>&1
-	fi	
-}
 
 ## Banner
  {
